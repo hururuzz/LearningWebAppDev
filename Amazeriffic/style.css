@@ -1,0 +1,56 @@
+body {
+  background: #f9e933;
+}
+
+header, main, footer {
+  min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+  max-width: 855px;
+  margin: auto;
+}
+
+header {
+  background: #f9e933;
+  overflow: auto;
+}
+
+header h1 {
+  float: left;
+  width: 570px;
+}
+
+header nav {
+  float: right;
+  width: 285px;
+}
+
+main {
+  background: white;
+  font-family: arial;
+  overflow: auto;
+}
+
+footer .contact {
+  float: left;
+  width: 570px;
+}
+
+footer .sitemap {
+  float: right;
+  width: 285px;
+}
+
+form {
+    width:300px;
+}
+
+.formLabel{
+    float: left;
+    text-align: right;
+}
+
+.formInput{
+    float: right;
+}
